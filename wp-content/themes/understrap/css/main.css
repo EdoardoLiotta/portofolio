@@ -1,0 +1,53 @@
+
+
+section#work {
+
+}
+section#work #contenuto {
+	text-align: center;
+}
+
+section#work #contenuto img {
+	width: 300px;
+}
+
+section#work ul li {
+	
+	text-decoration: none;
+	list-style-type: none;
+}
+
+section#work #social ul {
+	margin: 0 20%;
+}
+
+section#work #social img {
+	width: 60px;
+	padding: 10px;
+
+}
+
+h1 {
+
+	padding: 20px;
+}
+
+article#contenuto {
+	width: 100%;
+	height: 500px;
+}
+
+@media (max-width: @screen-xs) {
+    body{font-size: 10px;}
+
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 14px;}
+
+}
+
+
+article li {
+	list-style-type: none;
+}
