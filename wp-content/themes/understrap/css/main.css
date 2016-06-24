@@ -6,6 +6,11 @@ main {
 	background-image: url(../img/fondo.jpg);
 }
 
+
+main background-image {
+	opacity:0.3;
+}
+
 section#logo {
 	display: inline-block;
 	width: 25%;
@@ -20,9 +25,17 @@ section#logo {
 	display: none;
 }
 
+.cd-nav ul li{
+	list-style-type: none;
+
+}
+.cd-nav ul li a {
+
+	padding-top: 35%;
+}
 
 h1 {
-
+	font-size: 1.5rem !important;
 	padding: 20px;
 }
 
@@ -66,6 +79,10 @@ article#contenuto ul li:hover {
 	
 }
 
+article#contenuto2 .skills {
+	margin: auto;
+}
+
 section#social ul {
 	list-style-type: none;
 	display: block;
@@ -79,17 +96,7 @@ section#social ul li {
 	padding-bottom: 30px;
 }
 
-article#contenuto2 ul .base {
-	z-index: 1;
-	position: relative;
 
-}
-
-article#contenuto2 ul .upper .panel-success-overlay-left {
-	z-index: 3;
-	position: relative;
-	width: 50%;
-}
 
 #contact {
 	margin-left: 10%;
@@ -99,4 +106,5 @@ p.edo {
 	color: white;
 	margin-left: 10%;
 }
+
 

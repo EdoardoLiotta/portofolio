@@ -15,7 +15,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Helvetica neue";
   color: #ffffff;
   background-color: #403438;
 }
@@ -156,7 +156,7 @@ xnavigation
 .cd-nav-container {
   position: fixed;
   z-index: 4;
-  top: 0;
+  top: 50px;
   right: 0;
   width: 80%;
   height: 100%;
@@ -198,8 +198,8 @@ xnavigation
 }
 .cd-nav-container h3 {
   font-size: 1.6rem;
-  font-weight: bold;
-  font-family: "Lora", serif;
+  font-weight: normal;
+  font-family: "Helvetica neue";
   text-transform: uppercase;
   color: #5c4b51;
 }
@@ -319,12 +319,12 @@ xnavigation
 .no-touch .cd-nav li:first-of-type a:hover,
 .cd-nav li.cd-selected:first-of-type a {
   /* on hover or if selected - change background color*/
-  background-color: #ffffff;
+  background-color: #298a8a;
 }
 .no-touch .cd-nav li:nth-of-type(2) a:hover,
 .cd-nav li.cd-selected:nth-of-type(2) a {
   /* on hover or if selected - change background color*/
-  background-color: #5c4b51;
+  background-color: #8a2929;
 }
 .no-touch .cd-nav li:nth-of-type(3) a:hover,
 .cd-nav li.cd-selected:nth-of-type(3) a {
@@ -589,7 +589,7 @@ main.scale-down {
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
-  color: #ffffff;
+  color: #000000;
   text-align: center;
 }
 .cd-title > * {
@@ -608,7 +608,7 @@ main.scale-down {
   border: 2px solid rgba(255, 255, 255, 0.5);
   font-weight: 700;
   color: #ffffff;
-  font-family: "Lora", serif;
+  font-family: "Helvetica neue";
 }
 .no-touch .cd-title a:hover {
   border-color: #ffffff;
@@ -670,6 +670,7 @@ main.scale-down {
 .no-js .cd-nav li {
   width: 50%;
   float: left;
+  list-style-type: none;
 }
 @media only screen and (min-width: 700px) {
   .no-js .cd-nav li {

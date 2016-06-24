@@ -261,8 +261,8 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
-  color: #373a3c;
-  background-color: #fff; }
+  color: #a9a9a9;
+  background-color: #403438; }
 
 [tabindex="-1"]:focus {
   outline: none !important; }

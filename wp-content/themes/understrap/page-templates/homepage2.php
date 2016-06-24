@@ -51,10 +51,10 @@ get_header(); ?>
 
           <article id="contenuto2">
               <ul>
-                <li class="col-xs-12 upper list-group-item"><img src="wp-content/themes/understrap/img/baseskills.png"><div <div class="list-group-item-overlay-left"><img src="wp-content/themes/understrap/img/skillsps.png"></div></li>
-                <li class="col-xs-12 upper list-group-item"><img src="wp-content/themes/understrap/img/baseskills.png"><div <div class="list-group-item-overlay-left"><img src="wp-content/themes/understrap/img/skillsai.png"></div></li>
-                <li class="col-xs-12 upper list-group-item"><img src="wp-content/themes/understrap/img/baseskills.png"><div <div class="list-group-item-overlay-left"><img src="wp-content/themes/understrap/img/skillsid.png"></div></li>
-                <li class="col-xs-12 upper list-group-item"><img src="wp-content/themes/understrap/img/baseskills.png"><div <div class="list-group-item-overlay-left"><img src="wp-content/themes/understrap/img/skillsweb.png"></div></li>
+                <li class="skills col-xs-12 list-group-item"><img src="wp-content/themes/understrap/img/baseskills.png"><div <div class="list-group-item-overlay-left"><img src="wp-content/themes/understrap/img/skillsps.png"></div></li>
+                <li class="skills col-xs-12 list-group-item"><img src="wp-content/themes/understrap/img/baseskills.png"><div <div class="list-group-item-overlay-left"><img src="wp-content/themes/understrap/img/skillsai.png"></div></li>
+                <li class="skills col-xs-12 list-group-item"><img src="wp-content/themes/understrap/img/baseskills.png"><div <div class="list-group-item-overlay-left"><img src="wp-content/themes/understrap/img/skillsid.png"></div></li>
+                <li class="skills col-xs-12 list-group-item"><img src="wp-content/themes/understrap/img/baseskills.png"><div <div class="list-group-item-overlay-left"><img src="wp-content/themes/understrap/img/skillsweb.png"></div></li>
               </ul>
           </article>
           <footer>
