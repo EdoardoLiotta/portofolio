@@ -523,7 +523,7 @@ main.scale-down {
 }
 
 .cd-section {
-  background-image: url(../img/fondo.jpg);
+  
   position: absolute;
   z-index: 1;
   top: 0;

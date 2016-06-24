@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Homepage1
+ * Template Name: Homepage2
  *
  * Template for displaying a page without sidebar even if a sidebar widget is published
  *
@@ -49,14 +49,13 @@ get_header(); ?>
         
     <?php endwhile; // end of the loop. ?>
 
-          <article id="contenuto">
-
+          <article id="contenuto2">
               <ul>
-                <li class="col-xs-12 col-sm-6 col-md-3"><img src="wp-content/themes/understrap/img/ps.png"></li>
-                <li class="col-xs-12 col-sm-6 col-md-3"><img src="wp-content/themes/understrap/img/ai.png"></li>
-                <li class="col-xs-12 col-sm-6 col-md-3"><img src="wp-content/themes/understrap/img/id.png"></li>
-                <li class="col-xs-12 col-sm-6 col-md-3"><img src="wp-content/themes/understrap/img/web.png"></li>
-            </ul>
+                <li class="col-xs-12 upper list-group-item"><img src="wp-content/themes/understrap/img/baseskills.png"><div <div class="list-group-item-overlay-left"><img src="wp-content/themes/understrap/img/skillsps.png"></div></li>
+                <li class="col-xs-12 upper list-group-item"><img src="wp-content/themes/understrap/img/baseskills.png"><div <div class="list-group-item-overlay-left"><img src="wp-content/themes/understrap/img/skillsai.png"></div></li>
+                <li class="col-xs-12 upper list-group-item"><img src="wp-content/themes/understrap/img/baseskills.png"><div <div class="list-group-item-overlay-left"><img src="wp-content/themes/understrap/img/skillsid.png"></div></li>
+                <li class="col-xs-12 upper list-group-item"><img src="wp-content/themes/understrap/img/baseskills.png"><div <div class="list-group-item-overlay-left"><img src="wp-content/themes/understrap/img/skillsweb.png"></div></li>
+              </ul>
           </article>
           <footer>
             <section id="social">

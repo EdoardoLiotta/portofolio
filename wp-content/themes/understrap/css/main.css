@@ -1,4 +1,10 @@
+*{
+	font-family:Helvetica Neue;
+}
 
+main {
+	background-image: url(../img/fondo.jpg);
+}
 
 section#logo {
 	display: inline-block;
@@ -71,5 +77,26 @@ section#social ul li {
 	margin-right: auto;
 	margin-left: auto;
 	padding-bottom: 30px;
+}
+
+article#contenuto2 ul .base {
+	z-index: 1;
+	position: relative;
+
+}
+
+article#contenuto2 ul .upper .panel-success-overlay-left {
+	z-index: 3;
+	position: relative;
+	width: 50%;
+}
+
+#contact {
+	margin-left: 10%;
+}
+
+p.edo {
+	color: white;
+	margin-left: 10%;
 }
 

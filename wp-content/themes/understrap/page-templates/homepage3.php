@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Homepage1
+ * Template Name: Homepage3
  *
  * Template for displaying a page without sidebar even if a sidebar widget is published
  *
@@ -49,14 +49,8 @@ get_header(); ?>
         
     <?php endwhile; // end of the loop. ?>
 
-          <article id="contenuto">
-
-              <ul>
-                <li class="col-xs-12 col-sm-6 col-md-3"><img src="wp-content/themes/understrap/img/ps.png"></li>
-                <li class="col-xs-12 col-sm-6 col-md-3"><img src="wp-content/themes/understrap/img/ai.png"></li>
-                <li class="col-xs-12 col-sm-6 col-md-3"><img src="wp-content/themes/understrap/img/id.png"></li>
-                <li class="col-xs-12 col-sm-6 col-md-3"><img src="wp-content/themes/understrap/img/web.png"></li>
-            </ul>
+          <article id="contact">
+          
           </article>
           <footer>
             <section id="social">
