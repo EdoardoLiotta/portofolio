@@ -7,9 +7,12 @@
  * @package understrap
  */
 
+
 get_header(); ?>
 
-
+<?php
+$gallery = get_post_meta(  $post->ID, 'galleryp', true);
+?>
 <a href="#cd-nav" class="cd-nav-trigger">
   Menu<span><!-- used to create the menu icon --></span>
 </a> <!-- .cd-nav-trigger -->
@@ -52,7 +55,7 @@ get_header(); ?>
           <article id="contenuto">
 
               <ul>
-                <li class="col-xs-12 col-sm-6 col-md-3"><img src="wp-content/themes/understrap/img/ps.png"></li>
+                <li class="col-xs-12 col-sm-6 col-md-3"><a href='<?php echo pods_image($gallery, ''); ?>'><img src="wp-content/themes/understrap/img/ps.png"></a></li>
                 <li class="col-xs-12 col-sm-6 col-md-3"><img src="wp-content/themes/understrap/img/ai.png"></li>
                 <li class="col-xs-12 col-sm-6 col-md-3"><img src="wp-content/themes/understrap/img/id.png"></li>
                 <li class="col-xs-12 col-sm-6 col-md-3"><img src="wp-content/themes/understrap/img/web.png"></li>

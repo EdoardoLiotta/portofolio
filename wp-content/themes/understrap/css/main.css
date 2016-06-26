@@ -44,15 +44,7 @@ article#contenuto {
 	height: 350px;
 }
 
-@media (max-width: @screen-xs) {
-    body{font-size: 10px;}
 
-}
-
-@media (max-width: @screen-sm) {
-    body{font-size: 14px;}
-
-}
 
 
 article li {
@@ -103,8 +95,45 @@ section#social ul li {
 }
 
 p.edo {
-	color: white;
+	color: inherit;
 	margin-left: 10%;
 }
+
+section#foto{
+	width: 20%;
+	float: right;
+	margin-right: 20%;
+	font-size: 0.7rem;
+}
+
+div#contact{
+display: inline-block;
+}
+
+div#pagecontact {
+
+}
+
+@media (max-width: @screen-xs-max) {
+    body{font-size: 10px;}
+        section#foto{
+    	float: none !important ;
+    	width: 50% !important ;}
+
+
+}
+
+@media (min-width: @screen-sm-min) and (max-width:805px;) {
+   
+    body{font-size: 14px;}
+    section#foto{
+    	clear: both;
+    	float: none;
+    	width: 50%;}
+
+}
+
+
+
 
 
